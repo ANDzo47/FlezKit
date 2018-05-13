@@ -1,0 +1,6 @@
+framework module FlezKit {
+  umbrella header "FlezKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
