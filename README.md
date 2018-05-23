@@ -22,7 +22,7 @@ pod 'FlezKit'
 
 ## Author
 
-andres.rizzo@despegar.com, andyrizzo@gmail.com
+ANDzo47
 
 ## License
 
