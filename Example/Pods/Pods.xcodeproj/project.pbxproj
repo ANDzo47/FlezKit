@@ -52,6 +52,7 @@
 		42EAAE8CFB95F2352FCE036F263263E1 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9886C16D199E02B88589CED67D85A51 /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4377B0EBB0D9D71671767F5EE0E569C7 /* DynamicSizeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C826323C6CDC4C15F1D1242AC2B5B48 /* DynamicSizeSnapshot.swift */; };
 		45F183320C688F9978649F30ABE21D09 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE93981372F1B5A9AA00030711E5113 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		4675C3A020B5098F008CF938 /* FlezScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4675C39F20B5098F008CF938 /* FlezScrollView.swift */; };
 		483FDA74FEC933E1A53FA25E794A0443 /* XCTestObservationCenter+CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E7D7F94796C8273534EBD4E460E922 /* XCTestObservationCenter+CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CDACD8A5A6CFB688838AA988E7D1E43 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC11D1D8ABC1AD353758D26B68DF9DF /* Nimble-dummy.m */; };
 		4FABBF5CA8F735F48035BE4144613CB7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1300A88E757F3EDCAC601D580051806 /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -286,6 +287,7 @@
 		451E08D10D9859266EEFBF6749F5AA48 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		4557264306694A128439E3C32B21072F /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		46318E2320B1AE8A00175D1C /* FlezListItemTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlezListItemTestView.xib; sourceTree = "<group>"; };
+		4675C39F20B5098F008CF938 /* FlezScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlezScrollView.swift; sourceTree = "<group>"; };
 		469AA159D86DDEC294F2DA2741B13C5D /* Pods_FlezKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlezKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		486BEA084A74A7D96BBC96B4F7CCF311 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		4A0899F1B4CA18747F7A62B6CA14F9ED /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
@@ -572,6 +574,14 @@
 			path = FlezKit/Classes/Helpers;
 			sourceTree = "<group>";
 		};
+		4675C39E20B50954008CF938 /* ListScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4675C39F20B5098F008CF938 /* FlezScrollView.swift */,
+			);
+			path = ListScrollView;
+			sourceTree = "<group>";
+		};
 		4AB60E34CE876A9FE5EC7EC15E266E1D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,6 +600,7 @@
 			isa = PBXGroup;
 			children = (
 				44BF3C30DA7F1173FF3CD54F13D3537A /* Helpers */,
+				4675C39E20B50954008CF938 /* ListScrollView */,
 				1A24EF8E39087FC8704C7EC99BD62915 /* ListItemView */,
 				32CD9AC4717B34FCB44B453D306F608C /* Pod */,
 				CFA8D8E62CD66887409FE6284CD5E11A /* Support Files */,
@@ -1218,6 +1229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4675C3A020B5098F008CF938 /* FlezScrollView.swift in Sources */,
 				3E2383E6F1BD339DCFC6ED0830D71CF0 /* FlezKit-dummy.m in Sources */,
 				8ED97C2B99BE78942CB0593F4F17FCD1 /* FlezListItemView.swift in Sources */,
 				97396778BEE06F81BDE74F9C625E53C0 /* UIView+Constraints.swift in Sources */,
@@ -1363,7 +1375,7 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SDKROOT)/Developer/Library/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
@@ -1426,7 +1438,7 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SDKROOT)/Developer/Library/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;

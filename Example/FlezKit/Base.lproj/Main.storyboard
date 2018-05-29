@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +24,7 @@
                             <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-bk-nVp" customClass="FlezBorderedView" customModule="FlezKit">
                                 <rect key="frame" x="16" y="96" width="343" height="45"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Este es un mensaje de Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-9W-1v6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Error Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-9W-1v6">
                                         <rect key="frame" x="12" y="12" width="319" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.72721016829999996" green="0.03384802596" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
@@ -63,7 +62,7 @@
                             <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="gBm-N6-nnf" customClass="FlezBorderedView" customModule="FlezKit">
                                 <rect key="frame" x="16" y="174.5" width="343" height="45"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Este es un mensaje de Warning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSl-i2-iAj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Warning Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSl-i2-iAj">
                                         <rect key="frame" x="12" y="12" width="319" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.91823186530000001" green="0.91123365700000003" blue="0.1355738433" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -101,7 +100,7 @@
                             <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="5ud-Q4-zWY" customClass="FlezBorderedView" customModule="FlezKit">
                                 <rect key="frame" x="16" y="258" width="343" height="45"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Este es un mensaje de Success" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqY-Es-Nsq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" text="Success Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqY-Es-Nsq">
                                         <rect key="frame" x="12" y="12" width="319" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.33369853748638861" green="0.78562176165803099" blue="0.34880319157133471" alpha="0.64598921654929575" colorSpace="custom" customColorSpace="displayP3"/>
@@ -137,10 +136,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="jgK-YG-XO2" customClass="FlezBorderedView" customModule="FlezKit">
-                                <rect key="frame" x="16" y="349" width="343" height="85"/>
+                                <rect key="frame" x="16" y="349" width="343" height="65"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Esto es un mensaje para indicar que la ejecucion termino de manera correcta" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agr-FM-DbA">
-                                        <rect key="frame" x="48" y="12" width="279" height="61"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Hint message witch confirms a successful action" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agr-FM-DbA">
+                                        <rect key="frame" x="48" y="12" width="279" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.42915415759999997" green="0.71834820509999997" blue="0.21935966609999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -183,23 +182,103 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="343" placeholderIntrinsicHeight="213" translatesAutoresizingMaskIntoConstraints="NO" id="GJq-et-nz0" customClass="FlezScrollView" customModule="FlezKit">
+                                <rect key="frame" x="16" y="434" width="343" height="213"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBe-ij-Xgs" customClass="FlezBorderedView" customModule="FlezKit">
+                                        <rect key="frame" x="8" y="8" width="327" height="45"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" ambiguous="YES" text="Success Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrM-T8-myR">
+                                                <rect key="frame" x="12" y="12" width="303" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.3336985375" green="0.78562176169999998" blue="0.34880319160000001" alpha="0.64598921649999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" placeholder="YES" id="2fB-Fj-Tb9"/>
+                                            <constraint firstItem="JrM-T8-myR" firstAttribute="leading" secondItem="vBe-ij-Xgs" secondAttribute="leading" constant="12" id="McX-Jm-cJU"/>
+                                            <constraint firstAttribute="trailing" secondItem="JrM-T8-myR" secondAttribute="trailing" constant="12" id="o4N-oO-8ex"/>
+                                            <constraint firstItem="JrM-T8-myR" firstAttribute="top" secondItem="vBe-ij-Xgs" secondAttribute="top" constant="12" id="o8Q-Mm-6US"/>
+                                            <constraint firstAttribute="bottom" secondItem="JrM-T8-myR" secondAttribute="bottom" constant="12" id="vP3-BF-9dK"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.21959145050000001" green="0.51698105569999997" blue="0.22953111919999999" alpha="0.36119058100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.45000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.21959145050000001" green="0.51698105569999997" blue="0.22953111919999999" alpha="0.36119058100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view verifyAmbiguity="off" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nop-4W-Kht">
+                                        <rect key="frame" x="8" y="61" width="327" height="20"/>
+                                        <color key="backgroundColor" red="0.30171797620000002" green="0.79428432640000002" blue="0.21355528230000001" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Jfo-e6-38v"/>
+                                        </constraints>
+                                    </view>
+                                    <view verifyAmbiguity="off" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Vn-L4-0QN">
+                                        <rect key="frame" x="8" y="197" width="327" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.37154316199999998" green="0.3548839741" blue="0.75259067359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view verifyAmbiguity="off" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wc5-vu-4Lj">
+                                        <rect key="frame" x="8" y="349" width="327" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.99237860440000003" blue="0.14764663310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="RzW-1P-ZHV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wc5-vu-4Lj" firstAttribute="leading" secondItem="GJq-et-nz0" secondAttribute="leading" constant="8" id="6ae-Az-cIy"/>
+                                    <constraint firstAttribute="trailing" secondItem="wc5-vu-4Lj" secondAttribute="trailing" constant="8" id="hbT-tR-mJm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="layoutHorizontalMargin">
+                                        <point key="value" x="8" y="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="layoutVerticalMargin">
+                                        <point key="value" x="8" y="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layoutSpacing">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jgK-YG-XO2" secondAttribute="bottom" priority="248" constant="8" id="3qG-mI-g2V"/>
                             <constraint firstAttribute="trailing" secondItem="JLg-bk-nVp" secondAttribute="trailing" constant="16" id="46x-gz-fHX"/>
                             <constraint firstItem="gBm-N6-nnf" firstAttribute="top" secondItem="JLg-bk-nVp" secondAttribute="bottom" constant="33.5" id="6VK-Yf-Qw8"/>
-                            <constraint firstItem="5ud-Q4-zWY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="M18-HZ-XJJ"/>
-                            <constraint firstItem="5ud-Q4-zWY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="SjR-E7-AiE"/>
+                            <constraint firstItem="GJq-et-nz0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Dnb-pS-3ZF"/>
+                            <constraint firstAttribute="trailing" secondItem="GJq-et-nz0" secondAttribute="trailing" constant="16" id="E70-4a-doI"/>
                             <constraint firstItem="jgK-YG-XO2" firstAttribute="top" secondItem="5ud-Q4-zWY" secondAttribute="bottom" constant="46" id="WV4-yo-qa7"/>
                             <constraint firstItem="gBm-N6-nnf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Xa3-gT-4ot"/>
                             <constraint firstAttribute="trailing" secondItem="5ud-Q4-zWY" secondAttribute="trailing" constant="16" id="cZu-Hp-Rwt"/>
                             <constraint firstItem="5ud-Q4-zWY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="eEi-dG-hCp"/>
                             <constraint firstAttribute="trailing" secondItem="gBm-N6-nnf" secondAttribute="trailing" constant="16" id="ioV-vE-zip"/>
                             <constraint firstItem="5ud-Q4-zWY" firstAttribute="top" secondItem="gBm-N6-nnf" secondAttribute="bottom" constant="38.5" id="jaJ-Vs-JQx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GJq-et-nz0" secondAttribute="bottom" constant="20" id="mUb-vz-PpB"/>
                             <constraint firstItem="JLg-bk-nVp" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="pVF-Dr-snN"/>
                             <constraint firstItem="JLg-bk-nVp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="plp-da-fod"/>
                             <constraint firstItem="jgK-YG-XO2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="qBJ-qf-s8p"/>
+                            <constraint firstItem="GJq-et-nz0" firstAttribute="top" secondItem="jgK-YG-XO2" secondAttribute="bottom" constant="20" id="twt-kS-uBS"/>
                             <constraint firstAttribute="trailing" secondItem="jgK-YG-XO2" secondAttribute="trailing" constant="16" id="vmU-N7-7Fr"/>
                         </constraints>
                     </view>

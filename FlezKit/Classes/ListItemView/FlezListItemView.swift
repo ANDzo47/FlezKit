@@ -10,19 +10,6 @@ import QuartzCore
 
 
 @IBDesignable class FlezBorderedView: UIView {
-//
-//    fileprivate struct ShadowProperties {
-//        static var shadowPropertyView: UIView? = nil
-//    }
-//    
-//    fileprivate var shadowView: UIView? {
-//        get {
-//            return ShadowProperties.shadowPropertyView
-//        }
-//        set {
-//            ShadowProperties.shadowPropertyView = newValue
-//        }
-//    }
     
     private var shadowView: UIView? = nil
 
@@ -120,12 +107,6 @@ import QuartzCore
         
             superview.addSubview(shadowView)
             superview.sendSubview(toBack: shadowView)
-//            
-//            shadowView.translatesAutoresizingMaskIntoConstraints = false
-//            updateShadowFrame()
-//            
-//            self.addObserver(self, forKeyPath: "bounds", options: [], context: nil)
-//            self.addObserver(self, forKeyPath: "frame", options: [], context: nil)
             
             #if !TARGET_INTERFACE_BUILDER
                 // this code will run in the app itself
