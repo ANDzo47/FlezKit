@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of FlezKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/andres.rizzo@despegar.com/FlezKit",
+  "homepage": "https://github.com/ANDzo47/FlezKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "andres.rizzo@despegar.com": "andyrizzo@gmail.com"
+    "ANDzo": "andyrizzo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/andres.rizzo@despegar.com/FlezKit.git",
+    "git": "https://github.com/ANDzo47/FlezKit",
     "tag": "0.1.0"
   },
   "platforms": {
