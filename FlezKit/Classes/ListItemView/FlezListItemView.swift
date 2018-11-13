@@ -106,7 +106,7 @@ import QuartzCore
             !superview.subviews.contains(shadowView) {
         
             superview.addSubview(shadowView)
-            superview.sendSubview(toBack: shadowView)
+            superview.sendSubviewToBack(shadowView)
             
             #if !TARGET_INTERFACE_BUILDER
                 // this code will run in the app itself
