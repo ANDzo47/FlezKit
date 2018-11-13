@@ -40,7 +40,7 @@ internal extension UIView {
         
         translatesAutoresizingMaskIntoConstraints = false
         
-        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(left)-[self]-(right)-|", options: NSLayoutFormatOptions(),
+        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(left)-[self]-(right)-|", options: NSLayoutConstraint.FormatOptions(),
                                                                    metrics: ["left": left, "right": right],
                                                                    views: ["self": self]))
     }
@@ -65,7 +65,7 @@ internal extension UIView {
         guard superview != nil else { return }
         
         translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(up)-[self]-(down)-|", options: NSLayoutFormatOptions(),
+        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(up)-[self]-(down)-|", options: NSLayoutConstraint.FormatOptions(),
                                                                    metrics: ["up": up, "down": down],
                                                                    views: ["self": self]))
     }

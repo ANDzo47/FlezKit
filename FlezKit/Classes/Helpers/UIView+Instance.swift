@@ -7,9 +7,9 @@
 
 import Foundation
 
-public protocol FlezInstantiableView { }
+internal protocol FlezInstantiableView { }
 
-public extension FlezInstantiableView where Self: UIView {
+internal extension FlezInstantiableView where Self: UIView {
     
     /// Returns a UIView from nib with the same name as the class
     static func loadView() -> Self? {
